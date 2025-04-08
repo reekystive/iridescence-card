@@ -1,7 +1,12 @@
 words:
   - avenir
+  - drei
+  - glsl
   - grayscale
+  - Hdot
+  - Ndot
   - reekystive
+  - Schlick
 flagWords:
   - blacklist -> blocklist
   - whitelist -> allowlist
