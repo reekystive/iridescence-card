@@ -9,6 +9,7 @@ await ghPages.publish(distPath, {
   dotfiles: false,
   push: true,
   history: false,
+  add: false,
 });
 
 console.log('Artifacts committed and force pushed to gh-pages branch');
