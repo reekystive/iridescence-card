@@ -7,8 +7,8 @@ const distPath = resolve(import.meta.dirname, '../dist');
 
 await ghPages.publish(distPath, {
   dotfiles: false,
-  push: false,
+  push: true,
   history: false,
 });
 
-console.log('Artifacts committed to gh-pages branch');
+console.log('Artifacts committed and force pushed to gh-pages branch');
